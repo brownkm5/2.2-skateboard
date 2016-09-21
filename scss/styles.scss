@@ -1,0 +1,101 @@
+/* Import Bootstrap */
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+body{
+  background-image: url(../images/bg.jpg);
+  position: relative;
+}
+// .page {
+//   text-align: center;
+// }
+.nav {
+  font-size: 15px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  border-bottom: 2px solid grey;
+  width: 23%;
+  margin-left: 1%;
+}
+
+.article{
+  background-color: white;
+  font-family: 'Lucida Sans';
+  margin-left: 1%;
+  width: 32%;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.article .title{
+  font-size: 20px;
+  line-height: 21px;
+  color: rgb(54,	54,	52);
+  text-align: left;
+}
+.article .date{
+  text-align: left;
+  font-size: 10px;
+  color: rgb(166,	166,	166);
+}
+.article .section{
+  font-size: 12px;
+  color: rgb(88,	88,	88);
+  line-height: 18px;
+  margin-top: 10px;
+  text-align: left;
+  word-spacing: 4px;
+}
+.article .read-more{
+  text-align: center;
+  color: rgb(187,	34,	50);
+  text-transform: uppercase;
+}
+
+.boards{
+    background-color: white;
+    text-align: center;
+}
+.board{
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.skateboarder{
+  border: 3px solid white;
+}
+// .long{
+//   height: 200px;
+// }
+// .nav2{
+//   font-size: 15px;
+//   background-color: red;
+//   color: white;
+//   text-align: center;
+//   border-bottom: 2px solid grey;
+// }
+// .nav3{
+//   font-size: 15px;
+//   background-color: red;
+//   color: white;
+//   text-align: center;
+//   border-bottom: 2px solid grey;
+// }
+// .nav4{
+//   font-size: 15px;
+//   background-color: red;
+//   color: white;
+//   text-align: center;
+//   border-bottom: 2px solid grey;
+// }
+
+
+// .nav{
+//   padding: 0px;
+// }
+/*.grid{
+  position: absolute;
+  height: 337px;
+  width: 1004px;
+}*/

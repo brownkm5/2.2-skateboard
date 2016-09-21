@@ -5811,9 +5811,74 @@ body {
   background-image: url(../images/bg.jpg);
   position: relative; }
 
+.row {
+  margin-left: 0px;
+  margin-right: 0px; }
+
+.top {
+  height: 90px; }
+
+.subscribe {
+  text-transform: uppercase;
+  color: #fcf8f5;
+  text-align: right;
+  margin-top: 35px;
+  font-size: 15px; }
+
+.icons {
+  position: relative;
+  text-align: right;
+  padding-right: 0px; }
+
+.dots {
+  transform: rotate(90deg);
+  position: absolute;
+  top: 25px;
+  left: 80px;
+  font-size: 23px;
+  color: white; }
+
+.facebook, .rss, .twitter, .youtube {
+  font-size: 50px; }
+
+.fa-facebook {
+  color: #7483ad;
+  text-align: center;
+  height: 70px;
+  width: 70px;
+  padding-top: 5px;
+  background-color: #445993; }
+
+.fa-rss {
+  color: #d9a971;
+  text-align: center;
+  height: 70px;
+  width: 70px;
+  padding-top: 5px;
+  background-color: #ce8f43; }
+
+.fa-twitter {
+  color: #8fa9d1;
+  text-align: center;
+  height: 70px;
+  width: 70px;
+  padding-top: 5px;
+  background-color: #698ec3; }
+
+.fa-youtube {
+  color: #c76863;
+  text-align: center;
+  height: 70px;
+  width: 70px;
+  padding-top: 5px;
+  background-color: #b63631; }
+
 .div-button-one {
   padding-left: 0px; }
 
+@media (max-width: 768px) {
+  .div-button-one {
+    padding-left: 15px; } }
 .div-button-two {
   padding-right: 0px; }
 
@@ -5827,12 +5892,13 @@ body {
   background-color: red;
   color: white;
   text-align: center;
-  border-bottom: 2px solid grey;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  box-shadow: 0px 4px rgba(0, 0, 0, 0.3); }
 
 .banner-image {
   margin-top: 20px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  box-shadow: 0px 4px rgba(0, 0, 0, 0.3); }
 
 .logo {
   position: relative;
@@ -5850,7 +5916,8 @@ body {
   top: 0px;
   right: 0px;
   bottom: 0px;
-  left: 0px; }
+  left: 0px;
+  opacity: .3; }
 
 .article {
   background-color: white;
@@ -5859,7 +5926,8 @@ body {
   padding-left: 20px;
   padding-top: 20px;
   padding-bottom: 10px;
-  text-align: center; }
+  text-align: center;
+  box-shadow: 0px 4px rgba(0, 0, 0, 0.3); }
 
 .article-two {
   margin-left: 2%;
@@ -5891,14 +5959,76 @@ body {
 
 .boards {
   background-color: white;
-  text-align: center; }
+  text-align: center;
+  word-spacing: 20px;
+  box-shadow: 0px 4px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px; }
 
 .board {
   text-align: center;
   margin-left: 10px;
   margin-right: 10px; }
 
-.skateboarder {
-  border: 3px solid white; }
+.skateboarders {
+  margin-bottom: 20px;
+  margin-top: 20px; }
+
+.lance {
+  background: url(../images/sk8er-4.png) no-repeat center center;
+  height: 222px;
+  border: 3px solid white;
+  box-shadow: 0px 4px rgba(0, 0, 0, 0.3); }
+
+.lance h2 {
+  padding-top: 40px;
+  text-align: center;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white; }
+
+.rodney {
+  background: url(../images/sk8er-3.png) no-repeat center center;
+  height: 222px;
+  border: 3px solid white;
+  box-shadow: 0px 4px rgba(0, 0, 0, 0.3); }
+
+.rodney h2 {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white; }
+
+.steve {
+  background: url(../images/sk8er-1.png) no-repeat center center;
+  height: 222px;
+  border: 3px solid white;
+  background-size: 100%;
+  margin-top: 20px;
+  box-shadow: 0px 4px rgba(0, 0, 0, 0.3); }
+
+.steve h2 {
+  padding-top: 60px;
+  text-align: center;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white; }
+
+.tommy {
+  background: url(../images/sk8er-2.png) no-repeat -340px center;
+  height: 464px;
+  border: 3px solid white;
+  box-shadow: 0px 4px rgba(0, 0, 0, 0.3); }
+
+.tommy h2 {
+  padding-top: 150px;
+  text-align: center;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white; }
 
 /*# sourceMappingURL=styles.css.map */

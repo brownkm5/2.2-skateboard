@@ -62,9 +62,17 @@ background-color: rgb(105,	142,	195);
 @include icon(rgb(199,	104,	99));
 background-color: rgb(182,	54,	49);
 }
+
+@media (max-width:768px) {
+  .button-one, .button-two, .button-three, .button-four{
+    width: 270px;
+  }
+}
+
 @media (max-width:768px) {
   .top-nav{
-    display: block;
+      display: block;
+      margin: 0 25%
   }
 }
 .div-button-one{
@@ -91,19 +99,29 @@ background-color: rgb(182,	54,	49);
   text-transform: uppercase;
   box-shadow: 0px 4px rgba(0, 0, 0, .3);
 }
+
 .banner-image{
   margin-top: 20px;
   margin-bottom: 20px;
   box-shadow: 0px 4px rgba(0, 0, 0, .3);
 }
-@media (max-width:768px) {
-  .logo{
-    font-size: 50vw;
+@media (max-width: 768px) {
+  .banner-image{
+    margin: 20px 10%;
+    box-shadow: 0px 0px rgba(0, 0, 0, 0);
   }
 }
 .logo{
   position: relative;
   top: 50px;
+}
+@media (max-width:768px) {
+  .logo{
+    font-size: 50vw;
+    position: relative;
+    top: 0px;
+    margin: 0 10%;
+  }
 }
 .top-image{
   background: url(../images/top-image.png) no-repeat center -150px;
@@ -120,11 +138,13 @@ background-color: rgb(182,	54,	49);
   left: 0px;
   opacity: .3;
 }
-@media (max-width:768px) {
-  .article{
-    width: 90%
+@media (max-width:768px){
+  .top-image{
+    visibility: hidden;
+    height: 0px;
   }
 }
+
 .article{
   background-color: white;
   font-family: 'Lucida Sans';
@@ -135,10 +155,12 @@ background-color: rgb(182,	54,	49);
   text-align: center;
   box-shadow: 0px 4px rgba(0, 0, 0, .3);
 }
+
 .article-two{
   margin-left: 2%;
   margin-right: 2%;
 }
+
 .article .title{
   font-size: 20px;
   line-height: 21px;
@@ -163,11 +185,34 @@ background-color: rgb(182,	54,	49);
   color: rgb(187,	34,	50);
   text-transform: uppercase;
 }
-
+@media (max-width:768px) {
+  .article{
+    width: 60%;
+    height: 335px;
+    margin: 10px 20%;
+    text-align: center;
+  }
+}
+@media (max-width:768px) {
+  .article-two{
+    margin: 10px 20%;
+  }
+}
+@media (max-width:768px) {
+  .article .read-more, .article .title, .article .date, .article .section{
+    text-align: center;
+  }
+}
+@media (max-width:768px) {
+.article .section{
+  font-size: 15px;
+ }
+}
 .skateboarders{
   margin-bottom: 20px;
   margin-top: 20px;
 }
+
 @mixin name($padding-top) {
   padding-top: $padding-top;
   text-align: center;
@@ -212,8 +257,41 @@ background-color: rgb(182,	54,	49);
   box-shadow: 0px 4px rgba(0, 0, 0, .3);
 }
 .tommy h2{
-@include name(150px);
+  padding-top: 150px;
+  text-align: center;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
 }
+@media (max-width:768px) {
+  .skateboarder{
+    // width: 470px;
+    height: 222px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0px 65px;
+  }
+  .steve{
+  margin-top: -5px;
+  }
+  .steve h2{
+    padding-top: 40px;
+  }
+  .tommy{
+    height: 222px;
+    margin-top: -10px;
+    margin-left: 15px;
+    background: url(../images/sk8er-2.png) no-repeat right center;
+  }
+  .tommy h2{
+    padding-top: 40px;
+  }
+  .boarders{
+    height: 1200px;
+  }
+}
+
 @media (max-width:768px) {
   .boards{
     transform: rotate(90deg);

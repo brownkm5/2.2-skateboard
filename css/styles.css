@@ -5874,8 +5874,12 @@ body {
   background-color: #b63631; }
 
 @media (max-width: 768px) {
+  .button-one, .button-two, .button-three, .button-four {
+    width: 270px; } }
+@media (max-width: 768px) {
   .top-nav {
-    display: block; } }
+    display: block;
+    margin: 0 25%; } }
 .div-button-one {
   padding-left: 0px; }
 
@@ -5904,12 +5908,19 @@ body {
   box-shadow: 0px 4px rgba(0, 0, 0, 0.3); }
 
 @media (max-width: 768px) {
-  .logo {
-    font-size: 50vw; } }
+  .banner-image {
+    margin: 20px 10%;
+    box-shadow: 0px 0px transparent; } }
 .logo {
   position: relative;
   top: 50px; }
 
+@media (max-width: 768px) {
+  .logo {
+    font-size: 50vw;
+    position: relative;
+    top: 0px;
+    margin: 0 10%; } }
 .top-image {
   background: url(../images/top-image.png) no-repeat center -150px;
   height: 337px; }
@@ -5926,8 +5937,9 @@ body {
   opacity: .3; }
 
 @media (max-width: 768px) {
-  .article {
-    width: 90%; } }
+  .top-image {
+    visibility: hidden;
+    height: 0px; } }
 .article {
   background-color: white;
   font-family: 'Lucida Sans';
@@ -5966,6 +5978,21 @@ body {
   color: #bb2232;
   text-transform: uppercase; }
 
+@media (max-width: 768px) {
+  .article {
+    width: 60%;
+    height: 335px;
+    margin: 10px 20%;
+    text-align: center; } }
+@media (max-width: 768px) {
+  .article-two {
+    margin: 10px 20%; } }
+@media (max-width: 768px) {
+  .article .read-more, .article .title, .article .date, .article .section {
+    text-align: center; } }
+@media (max-width: 768px) {
+  .article .section {
+    font-size: 15px; } }
 .skateboarders {
   margin-bottom: 20px;
   margin-top: 20px; }
@@ -6029,6 +6056,30 @@ body {
   color: white; }
 
 @media (max-width: 768px) {
+  .skateboarder {
+    height: 222px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0px 65px; }
+
+  .steve {
+    margin-top: -5px; }
+
+  .steve h2 {
+    padding-top: 40px; }
+
+  .tommy {
+    height: 222px;
+    margin-top: -10px;
+    margin-left: 15px;
+    background: url(../images/sk8er-2.png) no-repeat right center; }
+
+  .tommy h2 {
+    padding-top: 40px; }
+
+  .boarders {
+    height: 1200px; } }
+@media (max-width: 768px) {
   .boards {
     transform: rotate(90deg); } }
 .boards {
@@ -6049,7 +6100,8 @@ body {
   background-color: white;
   color: black;
   margin-bottom: 20px;
-  padding-bottom: 10px; }
+  padding-bottom: 10px;
+  box-shadow: 0px 4px rgba(0, 0, 0, 0.3); }
 
 .contact-us {
   font-size: 30px;

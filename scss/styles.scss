@@ -144,18 +144,20 @@ background-color: rgb(182,	54,	49);
     height: 0px;
   }
 }
-
+.articles{
+  margin-bottom: 15px;
+}
 .article{
   background-color: white;
   font-family: 'Lucida Sans';
   width: 32%;
+  height: 263px;
   padding-left: 20px;
   padding-top: 20px;
   padding-bottom: 10px;
   text-align: center;
   box-shadow: 0px 4px rgba(0, 0, 0, .3);
 }
-
 .article-two{
   margin-left: 2%;
   margin-right: 2%;
@@ -185,6 +187,9 @@ background-color: rgb(182,	54,	49);
   color: rgb(187,	34,	50);
   text-transform: uppercase;
 }
+.article-one .section{
+  padding-bottom: 15px;
+}
 @media (max-width:768px) {
   .article{
     width: 60%;
@@ -212,7 +217,9 @@ background-color: rgb(182,	54,	49);
   margin-bottom: 20px;
   margin-top: 20px;
 }
-
+.boarders{
+  margin-bottom: 20px;
+}
 @mixin name($padding-top) {
   padding-top: $padding-top;
   text-align: center;
@@ -287,16 +294,13 @@ background-color: rgb(182,	54,	49);
   .tommy h2{
     padding-top: 40px;
   }
-  .boarders{
-    height: 1200px;
-  }
+  // .boarders{
+  //   height: 1200px;
+
+  // }
 }
 
-@media (max-width:768px) {
-  .boards{
-    transform: rotate(90deg);
-  }
-}
+
 .boards{
     background-color: white;
     text-align: center;
@@ -311,7 +315,13 @@ background-color: rgb(182,	54,	49);
   margin-left: 10px;
   margin-right: 10px;
 }
-
+@media (max-width:768px) {
+  .boards{
+    transform: rotate(90deg);
+    margin-right: 20px;
+    box-shadow: 0px 0px rgba(0, 0, 0, 0);
+  }
+}
 .form{
   background-color: white;
   color: black;

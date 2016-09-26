@@ -5818,6 +5818,9 @@ body {
 .top {
   height: 90px; }
 
+@media (max-width: 768px) {
+  .top {
+    display: none; } }
 .subscribe {
   text-transform: uppercase;
   color: #fcf8f5;
@@ -5879,13 +5882,16 @@ body {
 @media (max-width: 768px) {
   .top-nav {
     display: block;
-    margin: 0 25%; } }
+    margin: 0 40%; } }
 .div-button-one {
   padding-left: 0px; }
 
 @media (max-width: 768px) {
   .div-button-one {
-    padding-left: 15px; } }
+    padding-left: 15px; }
+
+  .div-button-two {
+    margin-bottom: 10px; } }
 .div-button-two {
   padding-right: 0px; }
 
@@ -5909,7 +5915,7 @@ body {
 
 @media (max-width: 768px) {
   .banner-image {
-    margin: 20px 10%;
+    display: none;
     box-shadow: 0px 0px transparent; } }
 .logo {
   position: relative;
@@ -5987,13 +5993,10 @@ body {
 
 @media (max-width: 768px) {
   .article {
-    width: 60%;
+    width: 100%;
     height: 335px;
-    margin: 10px 20%;
+    margin: 0px 35%;
     text-align: center; } }
-@media (max-width: 768px) {
-  .article-two {
-    margin: 10px 20%; } }
 @media (max-width: 768px) {
   .article .read-more, .article .title, .article .date, .article .section {
     text-align: center; } }
@@ -6068,9 +6071,9 @@ body {
 @media (max-width: 768px) {
   .skateboarder {
     height: 222px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 0px 65px; }
+    margin: 0px 0%;
+    padding: 0px 65px;
+    width: 550px; }
 
   .steve {
     margin-top: -5px; }
@@ -6082,6 +6085,7 @@ body {
     height: 222px;
     margin-top: -10px;
     margin-left: 15px;
+    margin-right: -15px;
     background: url(../images/sk8er-2.png) no-repeat right center; }
 
   .tommy h2 {
@@ -6137,5 +6141,17 @@ body {
   background-color: grey;
   padding-right: 2px;
   margin-left: 6px; }
+
+@media (max-width: 768px) {
+  .form {
+    width: 480px;
+    margin-left: 40px; }
+
+  .contact-us {
+    font-size: 20px;
+    padding-top: 20px; }
+
+  .text {
+    font-size: 12px; } }
 
 /*# sourceMappingURL=styles.css.map */
